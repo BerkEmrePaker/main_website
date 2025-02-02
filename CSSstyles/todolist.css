@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Form Styling */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #6e6e6e;
+    padding: 8px;
+    text-align: left;
+}
+
+tr {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #c6c6c6;
+}
+
+tr:hover {
+    background-color: #7ab17c;
+}
+
+
+
+
+
